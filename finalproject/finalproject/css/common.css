@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+form {
+    font: 87.5% Arial, Helvetica, sans-serif;
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid brown;
+}
+h1 {
+    color: brown; 
+    font-size: 140%;
+}
+h2 {
+    font-size: 115%;
+    padding: .5em 0;
+}
+form label {
+    color: brown;
+    float: left;
+    width: 12em;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px 10px 5px 10px;
+}
+form input {
+    width: 20em;
+    margin: 0 0 .5em 1em;
+    border-radius:6px;
+    padding: 5px 10px 5px 10px;
+    font-size:15px;
+}
+form select {
+    width: 22em;
+    margin: 0 0 .5em 1em;
+    border-radius:6px;
+    padding: 5px 10px 5px 10px;
+    font-size:15px;
+}
+form textarea {
+    width: 20em;
+    margin: 0 0 .5em 1em;
+    border-radius:6px;
+    padding: 5px 10px 5px 10px;
+    font-size:15px;
+    height:60px;
+}
+
+#button, #reset {
+    width: 7em;
+    background-color: silver;
+    box-shadow: 2px 2px 0 brown; }
+#button {
+    margin-left: 9em;
+}
+input:required {
+box-shadow:none;
+}
+input:invalid {
+box-shadow:0 0 3px white;
+}
+input {
+    width: auto;
+    margin: 0 0 .5em 1em;
+    }
+#button, #reset, #add_btn, #cal_btn, #reset_btn {
+    width: 7em;
+    background-color: silver;
+    box-shadow: 2px 2px 0 black; 
+}
+
+#button, #add_btn {
+    margin-left: 9em;
+}
+
+
+
+.main-body{
+    height:500px;
+    overflow:auto;
+    background-position: right bottom,left top;
+    background-repeat: no-repeat, repeat;
+}
+
+header-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header-bar li {
+    float: right;
+}
+
+header-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header-bar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+header-bar .active {
+    background-color: orange;
+}
+
+footer-bar p {
+    overflow: hidden;
+    background-color: #333;
+    color:white;
+    height:40px;
+    text-align:center;
+    margin:0;
+    padding:5px;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 3px;
+    color: #555555;
+    display: block;
+    position: relative;
+    width:40%;
+    margin-bottom:5px;
+    display:inline-block;
+}
+
+.title {
+    display:inline-block;
+    font-size: 30px;
+}
+
+.description {
+    font-size: 15pt;
+    margin: 20px 300px 20px 300px;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+
+#gpa_table {
+    margin-top: 20px;
+    width:400px;
+    font-size:18px;
+}
+
+.left-panel {
+    float: left;
+    height:100%;
+    width: 30%;
+    margin: 0;
+    padding: 1em;
+}
+.right-panel {
+    margin-left: 30%;
+    height:100%;
+    border-left: 1px solid gray;
+    padding: 1em;
+    font-size:25px;
+}
+.top-panel {
+    width: 90%;
+    font-size:25px;
+    border-bottom: 1px solid black;
+    padding: 10px 0px 30px 0px;
+}
+.bottom-panel{
+    width: 90%;
+    font-size:25px;
+    height: 200px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.avatar {
+   width:30px;
+   height: 30px; 
+   display: inline-block;
+}
+.li-user-info {
+    border-bottom: 1px dashed green;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+ref-table {
+    font-size: 18px;
+    width:100%;
+    margin-top:10px;
+}
+
+ref-table table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left:30px;
+}
+
+ref-table td, ref-table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+ref-table tr:nth-child(even) {
+    background-color: #dddddd;
+    opacity: 0.8;
+}
+
+common-table table {
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse: collapse;
+}
+
+common-table table, common-table th, common-table td {
+    border: 1px solid black;
+    text-align:center;
+}
+
+depart-list ul{
+    list-style: square inside url("img/sqpurple.gif");
+    width: 80%;
+    border: 1px solid green;
+    margin: 100px 100px 100px 100px;
+    text-align:left;
+}
+depart-list ul li {
+    font-size:25px;
+    margin: 20px auto 20px 80px;
+    cursor: pointer;
+}
+
+.active {
+    color: black;
+}
+
+
+#math_com_iframe {
+    width: 99.5%;
+    height: 99.5%;
+}
